@@ -22,27 +22,8 @@
 		236FE83B1C57593000D1C463 /* RACSignal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 236FE8391C57593000D1C463 /* RACSignal.xcdatamodeld */; };
 		236FE83D1C57593000D1C463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236FE83C1C57593000D1C463 /* Assets.xcassets */; };
 		236FE8401C57593000D1C463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236FE83E1C57593000D1C463 /* LaunchScreen.storyboard */; };
-		236FE84B1C57593000D1C463 /* RACSignalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 236FE84A1C57593000D1C463 /* RACSignalTests.m */; };
-		236FE8561C57593000D1C463 /* RACSignalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 236FE8551C57593000D1C463 /* RACSignalUITests.m */; };
 		236FE8791C576D8600D1C463 /* jianshu.png in Resources */ = {isa = PBXBuildFile; fileRef = 236FE8781C576D8600D1C463 /* jianshu.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		236FE8471C57593000D1C463 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 236FE8221C57593000D1C463 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 236FE8291C57593000D1C463;
-			remoteInfo = RACSignal;
-		};
-		236FE8521C57593000D1C463 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 236FE8221C57593000D1C463 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 236FE8291C57593000D1C463;
-			remoteInfo = RACSignal;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2302E8E71C57AC2700D49512 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -69,31 +50,11 @@
 		236FE83C1C57593000D1C463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		236FE83F1C57593000D1C463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		236FE8411C57593000D1C463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		236FE8461C57593000D1C463 /* skinPerlerDesign.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skinPerlerDesign.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		236FE84A1C57593000D1C463 /* RACSignalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignalTests.m; sourceTree = "<group>"; };
-		236FE84C1C57593000D1C463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		236FE8511C57593000D1C463 /* skinPerlerDesign.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skinPerlerDesign.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		236FE8551C57593000D1C463 /* RACSignalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignalUITests.m; sourceTree = "<group>"; };
-		236FE8571C57593000D1C463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		236FE8781C576D8600D1C463 /* jianshu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jianshu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		236FE8271C57593000D1C463 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		236FE8431C57593000D1C463 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		236FE84E1C57593000D1C463 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -156,9 +117,7 @@
 		236FE8211C57593000D1C463 = {
 			isa = PBXGroup;
 			children = (
-				236FE82C1C57593000D1C463 /* RACSignal */,
-				236FE8491C57593000D1C463 /* RACSignalTests */,
-				236FE8541C57593000D1C463 /* RACSignalUITests */,
+				236FE82C1C57593000D1C463 /* skinPerlerDesign */,
 				236FE82B1C57593000D1C463 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -167,13 +126,11 @@
 			isa = PBXGroup;
 			children = (
 				236FE82A1C57593000D1C463 /* skinPerlerDesign.app */,
-				236FE8461C57593000D1C463 /* skinPerlerDesign.xctest */,
-				236FE8511C57593000D1C463 /* skinPerlerDesign.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		236FE82C1C57593000D1C463 /* RACSignal */ = {
+		236FE82C1C57593000D1C463 /* skinPerlerDesign */ = {
 			isa = PBXGroup;
 			children = (
 				2302E8FF1C57AE0700D49512 /* ScreenShot */,
@@ -191,6 +148,7 @@
 				236FE8391C57593000D1C463 /* RACSignal.xcdatamodeld */,
 				236FE82D1C57593000D1C463 /* Supporting Files */,
 			);
+			name = skinPerlerDesign;
 			path = RACSignal;
 			sourceTree = "<group>";
 		};
@@ -200,24 +158,6 @@
 				236FE82E1C57593000D1C463 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		236FE8491C57593000D1C463 /* RACSignalTests */ = {
-			isa = PBXGroup;
-			children = (
-				236FE84A1C57593000D1C463 /* RACSignalTests.m */,
-				236FE84C1C57593000D1C463 /* Info.plist */,
-			);
-			path = RACSignalTests;
-			sourceTree = "<group>";
-		};
-		236FE8541C57593000D1C463 /* RACSignalUITests */ = {
-			isa = PBXGroup;
-			children = (
-				236FE8551C57593000D1C463 /* RACSignalUITests.m */,
-				236FE8571C57593000D1C463 /* Info.plist */,
-			);
-			path = RACSignalUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,42 +180,6 @@
 			productReference = 236FE82A1C57593000D1C463 /* skinPerlerDesign.app */;
 			productType = "com.apple.product-type.application";
 		};
-		236FE8451C57593000D1C463 /* skinPerlerDesignTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 236FE85D1C57593000D1C463 /* Build configuration list for PBXNativeTarget "skinPerlerDesignTests" */;
-			buildPhases = (
-				236FE8421C57593000D1C463 /* Sources */,
-				236FE8431C57593000D1C463 /* Frameworks */,
-				236FE8441C57593000D1C463 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				236FE8481C57593000D1C463 /* PBXTargetDependency */,
-			);
-			name = skinPerlerDesignTests;
-			productName = RACSignalTests;
-			productReference = 236FE8461C57593000D1C463 /* skinPerlerDesign.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		236FE8501C57593000D1C463 /* skinPerlerDesignUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 236FE8601C57593000D1C463 /* Build configuration list for PBXNativeTarget "skinPerlerDesignUITests" */;
-			buildPhases = (
-				236FE84D1C57593000D1C463 /* Sources */,
-				236FE84E1C57593000D1C463 /* Frameworks */,
-				236FE84F1C57593000D1C463 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				236FE8531C57593000D1C463 /* PBXTargetDependency */,
-			);
-			name = skinPerlerDesignUITests;
-			productName = RACSignalUITests;
-			productReference = 236FE8511C57593000D1C463 /* skinPerlerDesign.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -288,14 +192,6 @@
 					236FE8291C57593000D1C463 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = CU4XLCPFAU;
-					};
-					236FE8451C57593000D1C463 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 236FE8291C57593000D1C463;
-					};
-					236FE8501C57593000D1C463 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 236FE8291C57593000D1C463;
 					};
 				};
 			};
@@ -313,8 +209,6 @@
 			projectRoot = "";
 			targets = (
 				236FE8291C57593000D1C463 /* skinPerlerDesign */,
-				236FE8451C57593000D1C463 /* skinPerlerDesignTests */,
-				236FE8501C57593000D1C463 /* skinPerlerDesignUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -331,20 +225,6 @@
 				2302E8F71C57AC5400D49512 /* ThemeCell.xib in Resources */,
 				236FE8381C57593000D1C463 /* Main.storyboard in Resources */,
 				2302E9011C57AE1300D49512 /* 94A42FA74FE6C50BC9F763E4E12A5C1F.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		236FE8441C57593000D1C463 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		236FE84F1C57593000D1C463 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,36 +247,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		236FE8421C57593000D1C463 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				236FE84B1C57593000D1C463 /* RACSignalTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		236FE84D1C57593000D1C463 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				236FE8561C57593000D1C463 /* RACSignalUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		236FE8481C57593000D1C463 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 236FE8291C57593000D1C463 /* skinPerlerDesign */;
-			targetProxy = 236FE8471C57593000D1C463 /* PBXContainerItemProxy */;
-		};
-		236FE8531C57593000D1C463 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 236FE8291C57593000D1C463 /* skinPerlerDesign */;
-			targetProxy = 236FE8521C57593000D1C463 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		236FE8361C57593000D1C463 /* Main.storyboard */ = {
@@ -524,54 +375,6 @@
 			};
 			name = Release;
 		};
-		236FE85E1C57593000D1C463 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = RACSignalTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.RACSignalTests;
-				PRODUCT_NAME = skinPerlerDesign;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skinPerlerDesign.app/skinPerlerDesign";
-			};
-			name = Debug;
-		};
-		236FE85F1C57593000D1C463 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = RACSignalTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.RACSignalTests;
-				PRODUCT_NAME = skinPerlerDesign;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skinPerlerDesign.app/skinPerlerDesign";
-			};
-			name = Release;
-		};
-		236FE8611C57593000D1C463 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = RACSignalUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.RACSignalUITests;
-				PRODUCT_NAME = skinPerlerDesign;
-				TEST_TARGET_NAME = RACSignal;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		236FE8621C57593000D1C463 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = RACSignalUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.RACSignalUITests;
-				PRODUCT_NAME = skinPerlerDesign;
-				TEST_TARGET_NAME = RACSignal;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -589,24 +392,6 @@
 			buildConfigurations = (
 				236FE85B1C57593000D1C463 /* Debug */,
 				236FE85C1C57593000D1C463 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		236FE85D1C57593000D1C463 /* Build configuration list for PBXNativeTarget "skinPerlerDesignTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				236FE85E1C57593000D1C463 /* Debug */,
-				236FE85F1C57593000D1C463 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		236FE8601C57593000D1C463 /* Build configuration list for PBXNativeTarget "skinPerlerDesignUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				236FE8611C57593000D1C463 /* Debug */,
-				236FE8621C57593000D1C463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
