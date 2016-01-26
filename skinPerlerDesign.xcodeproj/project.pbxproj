@@ -117,7 +117,7 @@
 		236FE8211C57593000D1C463 = {
 			isa = PBXGroup;
 			children = (
-				236FE82C1C57593000D1C463 /* skinPerlerDesign */,
+				236FE82C1C57593000D1C463 /* SkinPerlerDesign */,
 				236FE82B1C57593000D1C463 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		236FE82C1C57593000D1C463 /* skinPerlerDesign */ = {
+		236FE82C1C57593000D1C463 /* SkinPerlerDesign */ = {
 			isa = PBXGroup;
 			children = (
 				2302E8FF1C57AE0700D49512 /* ScreenShot */,
@@ -148,7 +148,7 @@
 				236FE8391C57593000D1C463 /* RACSignal.xcdatamodeld */,
 				236FE82D1C57593000D1C463 /* Supporting Files */,
 			);
-			name = skinPerlerDesign;
+			name = SkinPerlerDesign;
 			path = RACSignal;
 			sourceTree = "<group>";
 		};
