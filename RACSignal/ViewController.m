@@ -27,7 +27,7 @@ static NSString *const ThemeCellIdentifier = @"ThemeCellIdentifier";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"简书";
     [self.tableView setDelegate: self];
     [self.tableView setDataSource:self];
     [self.tableView registerNib:[UINib nibWithNibName:@"ThemeCell" bundle:nil] forCellReuseIdentifier:ThemeCellIdentifier];
@@ -77,6 +77,9 @@ static NSString *const ThemeCellIdentifier = @"ThemeCellIdentifier";
     //加载模型数据
     [model getTopicModel];
     //进行设置
+    [self.navigationController.navigationBar setBarTintColor:model.navBarColor];
+    [self.navigationController.navigationBar setTranslucent:YES];
+
     _tableView.backgroundColor = model.tableViewColor;
     self.view.backgroundColor = model.bgColor;
     _phoneLabel.textColor = model.textColor;
@@ -86,6 +89,10 @@ static NSString *const ThemeCellIdentifier = @"ThemeCellIdentifier";
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleDefault;
 }
 
 @end

@@ -60,21 +60,22 @@ static TopicColorManager *_sharedInstance ;
             _tableViewColor = [UIColor whiteColor];
             _tableViewCellColor = [UIColor whiteColor];
             _cellThemeTitleColor = [UIColor blackColor];
+            _navBarColor = [UIColor whiteColor];
         }
             break;
         case nightTime:
         {
             //这里面定义夜间模式下的相关控件的颜色属性
             _navColor=[UIColor colorWithRed:10/255.0 green:85/255.0 blue:160/255.0 alpha:1];
-            _bgColor=[UIColor colorWithRed:0 green:0 blue:0 alpha:1];
+            _bgColor=[UIColor colorWithRed:63/255.0 green:63/255.0 blue:63/255.0 alpha:1];
             _btnColor=[UIColor colorWithRed:10/255.0 green:85/255.0 blue:160/255.0 alpha:1];
             _textColor=[UIColor colorWithRed:1 green:1 blue:1 alpha:1];
             _btnTextColor=[UIColor colorWithRed:1 green:1 blue:1 alpha:1];
             _navTextColor= [UIColor whiteColor];
-            _tableViewColor = [UIColor blackColor];
-            _tableViewCellColor = [UIColor blackColor];
+            _tableViewColor = [UIColor colorWithRed:63/255.0 green:63/255.0 blue:63/255.0 alpha:1];
+            _tableViewCellColor = [UIColor colorWithRed:63/255.0 green:63/255.0 blue:63/255.0 alpha:1];
             _cellThemeTitleColor = [UIColor whiteColor];
-
+            _navBarColor = [UIColor colorWithRed:63.0/255.0 green:63.0/255.0 blue:63.0/255.0 alpha:1];
 
         }
             break;

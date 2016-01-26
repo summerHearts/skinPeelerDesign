@@ -42,6 +42,7 @@ typedef enum {
 @property (nonatomic,copy) UIColor *tableViewColor;
 @property (nonatomic,copy) UIColor *tableViewCellColor;
 @property (nonatomic,copy) UIColor *cellThemeTitleColor;
+@property (nonatomic,copy) UIColor *navBarColor;
 
 
 @end
