@@ -41,7 +41,7 @@
 		2302E8FD1C57AC9300D49512 /* BaseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableCell.m; sourceTree = "<group>"; };
 		2302E90E1C57B3A200D49512 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
 		2302E90F1C57B3A200D49512 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
-		236FE82A1C57593000D1C463 /* skinPerlerDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skinPerlerDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		236FE82A1C57593000D1C463 /* SkinPerlerDesign.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinPerlerDesign.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		236FE82E1C57593000D1C463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		236FE8301C57593000D1C463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		236FE8311C57593000D1C463 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		236FE82B1C57593000D1C463 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				236FE82A1C57593000D1C463 /* skinPerlerDesign.app */,
+				236FE82A1C57593000D1C463 /* SkinPerlerDesign.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 			);
 			name = skinPerlerDesign;
 			productName = RACSignal;
-			productReference = 236FE82A1C57593000D1C463 /* skinPerlerDesign.app */;
+			productReference = 236FE82A1C57593000D1C463 /* SkinPerlerDesign.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -195,7 +195,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 236FE8251C57593000D1C463 /* Build configuration list for PBXProject "skinPerlerDesign" */;
+			buildConfigurationList = 236FE8251C57593000D1C463 /* Build configuration list for PBXProject "SkinPerlerDesign" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -359,7 +359,7 @@
 				INFOPLIST_FILE = RACSignal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wpf.PayDemo;
-				PRODUCT_NAME = skinPerlerDesign;
+				PRODUCT_NAME = SkinPerlerDesign.temp_caseinsensitive_rename;
 			};
 			name = Debug;
 		};
@@ -371,14 +371,14 @@
 				INFOPLIST_FILE = RACSignal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wpf.PayDemo;
-				PRODUCT_NAME = skinPerlerDesign;
+				PRODUCT_NAME = SkinPerlerDesign.temp_caseinsensitive_rename;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		236FE8251C57593000D1C463 /* Build configuration list for PBXProject "skinPerlerDesign" */ = {
+		236FE8251C57593000D1C463 /* Build configuration list for PBXProject "SkinPerlerDesign" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				236FE8581C57593000D1C463 /* Debug */,
