@@ -60,7 +60,7 @@
 		2302E8FD1C57AC9300D49512 /* BaseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableCell.m; sourceTree = "<group>"; };
 		2302E9001C57AE1300D49512 /* 94A42FA74FE6C50BC9F763E4E12A5C1F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 94A42FA74FE6C50BC9F763E4E12A5C1F.png; sourceTree = "<group>"; };
 		2302E9021C57AE1B00D49512 /* 1C57C4BE09BFA2DCCBB00805F01813DB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1C57C4BE09BFA2DCCBB00805F01813DB.png; sourceTree = "<group>"; };
-		236FE82A1C57593000D1C463 /* RACSignal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACSignal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		236FE82A1C57593000D1C463 /* skinPerlerDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skinPerlerDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		236FE82E1C57593000D1C463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		236FE8301C57593000D1C463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		236FE8311C57593000D1C463 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,10 +69,10 @@
 		236FE83C1C57593000D1C463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		236FE83F1C57593000D1C463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		236FE8411C57593000D1C463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		236FE8461C57593000D1C463 /* RACSignalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACSignalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		236FE8461C57593000D1C463 /* skinPerlerDesign.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skinPerlerDesign.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		236FE84A1C57593000D1C463 /* RACSignalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignalTests.m; sourceTree = "<group>"; };
 		236FE84C1C57593000D1C463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		236FE8511C57593000D1C463 /* RACSignalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACSignalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		236FE8511C57593000D1C463 /* skinPerlerDesign.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skinPerlerDesign.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		236FE8551C57593000D1C463 /* RACSignalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignalUITests.m; sourceTree = "<group>"; };
 		236FE8571C57593000D1C463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		236FE8781C576D8600D1C463 /* jianshu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jianshu.png; sourceTree = "<group>"; };
@@ -166,9 +166,9 @@
 		236FE82B1C57593000D1C463 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				236FE82A1C57593000D1C463 /* RACSignal.app */,
-				236FE8461C57593000D1C463 /* RACSignalTests.xctest */,
-				236FE8511C57593000D1C463 /* RACSignalUITests.xctest */,
+				236FE82A1C57593000D1C463 /* skinPerlerDesign.app */,
+				236FE8461C57593000D1C463 /* skinPerlerDesign.xctest */,
+				236FE8511C57593000D1C463 /* skinPerlerDesign.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,9 +223,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		236FE8291C57593000D1C463 /* RACSignal */ = {
+		236FE8291C57593000D1C463 /* skinPerlerDesign */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 236FE85A1C57593000D1C463 /* Build configuration list for PBXNativeTarget "RACSignal" */;
+			buildConfigurationList = 236FE85A1C57593000D1C463 /* Build configuration list for PBXNativeTarget "skinPerlerDesign" */;
 			buildPhases = (
 				236FE8261C57593000D1C463 /* Sources */,
 				236FE8271C57593000D1C463 /* Frameworks */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = RACSignal;
+			name = skinPerlerDesign;
 			productName = RACSignal;
-			productReference = 236FE82A1C57593000D1C463 /* RACSignal.app */;
+			productReference = 236FE82A1C57593000D1C463 /* skinPerlerDesign.app */;
 			productType = "com.apple.product-type.application";
 		};
-		236FE8451C57593000D1C463 /* RACSignalTests */ = {
+		236FE8451C57593000D1C463 /* skinPerlerDesignTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 236FE85D1C57593000D1C463 /* Build configuration list for PBXNativeTarget "RACSignalTests" */;
+			buildConfigurationList = 236FE85D1C57593000D1C463 /* Build configuration list for PBXNativeTarget "skinPerlerDesignTests" */;
 			buildPhases = (
 				236FE8421C57593000D1C463 /* Sources */,
 				236FE8431C57593000D1C463 /* Frameworks */,
@@ -253,14 +253,14 @@
 			dependencies = (
 				236FE8481C57593000D1C463 /* PBXTargetDependency */,
 			);
-			name = RACSignalTests;
+			name = skinPerlerDesignTests;
 			productName = RACSignalTests;
-			productReference = 236FE8461C57593000D1C463 /* RACSignalTests.xctest */;
+			productReference = 236FE8461C57593000D1C463 /* skinPerlerDesign.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		236FE8501C57593000D1C463 /* RACSignalUITests */ = {
+		236FE8501C57593000D1C463 /* skinPerlerDesignUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 236FE8601C57593000D1C463 /* Build configuration list for PBXNativeTarget "RACSignalUITests" */;
+			buildConfigurationList = 236FE8601C57593000D1C463 /* Build configuration list for PBXNativeTarget "skinPerlerDesignUITests" */;
 			buildPhases = (
 				236FE84D1C57593000D1C463 /* Sources */,
 				236FE84E1C57593000D1C463 /* Frameworks */,
@@ -271,9 +271,9 @@
 			dependencies = (
 				236FE8531C57593000D1C463 /* PBXTargetDependency */,
 			);
-			name = RACSignalUITests;
+			name = skinPerlerDesignUITests;
 			productName = RACSignalUITests;
-			productReference = 236FE8511C57593000D1C463 /* RACSignalUITests.xctest */;
+			productReference = 236FE8511C57593000D1C463 /* skinPerlerDesign.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -299,7 +299,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 236FE8251C57593000D1C463 /* Build configuration list for PBXProject "RACSignal" */;
+			buildConfigurationList = 236FE8251C57593000D1C463 /* Build configuration list for PBXProject "skinPerlerDesign" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -312,9 +312,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				236FE8291C57593000D1C463 /* RACSignal */,
-				236FE8451C57593000D1C463 /* RACSignalTests */,
-				236FE8501C57593000D1C463 /* RACSignalUITests */,
+				236FE8291C57593000D1C463 /* skinPerlerDesign */,
+				236FE8451C57593000D1C463 /* skinPerlerDesignTests */,
+				236FE8501C57593000D1C463 /* skinPerlerDesignUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -388,12 +388,12 @@
 /* Begin PBXTargetDependency section */
 		236FE8481C57593000D1C463 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 236FE8291C57593000D1C463 /* RACSignal */;
+			target = 236FE8291C57593000D1C463 /* skinPerlerDesign */;
 			targetProxy = 236FE8471C57593000D1C463 /* PBXContainerItemProxy */;
 		};
 		236FE8531C57593000D1C463 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 236FE8291C57593000D1C463 /* RACSignal */;
+			target = 236FE8291C57593000D1C463 /* skinPerlerDesign */;
 			targetProxy = 236FE8521C57593000D1C463 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -508,7 +508,7 @@
 				INFOPLIST_FILE = RACSignal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wpf.PayDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = skinPerlerDesign;
 			};
 			name = Debug;
 		};
@@ -520,7 +520,7 @@
 				INFOPLIST_FILE = RACSignal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wpf.PayDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = skinPerlerDesign;
 			};
 			name = Release;
 		};
@@ -531,8 +531,8 @@
 				INFOPLIST_FILE = RACSignalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.RACSignalTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACSignal.app/RACSignal";
+				PRODUCT_NAME = skinPerlerDesign;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skinPerlerDesign.app/skinPerlerDesign";
 			};
 			name = Debug;
 		};
@@ -543,8 +543,8 @@
 				INFOPLIST_FILE = RACSignalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.RACSignalTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACSignal.app/RACSignal";
+				PRODUCT_NAME = skinPerlerDesign;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skinPerlerDesign.app/skinPerlerDesign";
 			};
 			name = Release;
 		};
@@ -554,7 +554,7 @@
 				INFOPLIST_FILE = RACSignalUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.RACSignalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = skinPerlerDesign;
 				TEST_TARGET_NAME = RACSignal;
 				USES_XCTRUNNER = YES;
 			};
@@ -566,7 +566,7 @@
 				INFOPLIST_FILE = RACSignalUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.RACSignalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = skinPerlerDesign;
 				TEST_TARGET_NAME = RACSignal;
 				USES_XCTRUNNER = YES;
 			};
@@ -575,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		236FE8251C57593000D1C463 /* Build configuration list for PBXProject "RACSignal" */ = {
+		236FE8251C57593000D1C463 /* Build configuration list for PBXProject "skinPerlerDesign" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				236FE8581C57593000D1C463 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		236FE85A1C57593000D1C463 /* Build configuration list for PBXNativeTarget "RACSignal" */ = {
+		236FE85A1C57593000D1C463 /* Build configuration list for PBXNativeTarget "skinPerlerDesign" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				236FE85B1C57593000D1C463 /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		236FE85D1C57593000D1C463 /* Build configuration list for PBXNativeTarget "RACSignalTests" */ = {
+		236FE85D1C57593000D1C463 /* Build configuration list for PBXNativeTarget "skinPerlerDesignTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				236FE85E1C57593000D1C463 /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		236FE8601C57593000D1C463 /* Build configuration list for PBXNativeTarget "RACSignalUITests" */ = {
+		236FE8601C57593000D1C463 /* Build configuration list for PBXNativeTarget "skinPerlerDesignUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				236FE8611C57593000D1C463 /* Debug */,

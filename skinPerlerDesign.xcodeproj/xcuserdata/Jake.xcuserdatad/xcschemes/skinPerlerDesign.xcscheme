@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "236FE8291C57593000D1C463"
-               BuildableName = "RACSignal.app"
-               BlueprintName = "RACSignal"
-               ReferencedContainer = "container:RACSignal.xcodeproj">
+               BuildableName = "skinPerlerDesign.app"
+               BlueprintName = "skinPerlerDesign"
+               ReferencedContainer = "container:skinPerlerDesign.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "236FE8451C57593000D1C463"
-               BuildableName = "RACSignalTests.xctest"
-               BlueprintName = "RACSignalTests"
-               ReferencedContainer = "container:RACSignal.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "236FE8501C57593000D1C463"
-               BuildableName = "RACSignalUITests.xctest"
-               BlueprintName = "RACSignalUITests"
-               ReferencedContainer = "container:RACSignal.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "236FE8291C57593000D1C463"
-            BuildableName = "RACSignal.app"
-            BlueprintName = "RACSignal"
-            ReferencedContainer = "container:RACSignal.xcodeproj">
+            BuildableName = "skinPerlerDesign.app"
+            BlueprintName = "skinPerlerDesign"
+            ReferencedContainer = "container:skinPerlerDesign.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "236FE8291C57593000D1C463"
-            BuildableName = "RACSignal.app"
-            BlueprintName = "RACSignal"
-            ReferencedContainer = "container:RACSignal.xcodeproj">
+            BuildableName = "skinPerlerDesign.app"
+            BlueprintName = "skinPerlerDesign"
+            ReferencedContainer = "container:skinPerlerDesign.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "236FE8291C57593000D1C463"
-            BuildableName = "RACSignal.app"
-            BlueprintName = "RACSignal"
-            ReferencedContainer = "container:RACSignal.xcodeproj">
+            BuildableName = "skinPerlerDesign.app"
+            BlueprintName = "skinPerlerDesign"
+            ReferencedContainer = "container:skinPerlerDesign.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
